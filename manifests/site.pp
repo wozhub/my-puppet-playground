@@ -8,4 +8,5 @@ node default {
 
 node slave {
     include servidor::web::apache
+    include servidor::db::pgsql::postgis
 }
